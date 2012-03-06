@@ -1,0 +1,16 @@
+package clases;
+
+public class ProvarPersona {
+
+  public static void main (String[] args){
+		Persona persona = new Persona();
+		persona.setNom("Jordi");
+		persona.setLlinatges("Genovart");
+		persona.setTelefon("971438470");
+		System.out.println(persona.getNom());
+		System.out.println(persona.getLlinatges());
+		System.out.println(persona.getTelefon());
+	}
+}
+
+
